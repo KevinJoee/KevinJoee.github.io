@@ -159,8 +159,7 @@
             <img src="./static/images/1-1-1.jpg">
 
             <p>
-              The S2Gaussian initially optimizes an LR GS and densifies it to initialize the HR GS through a tailored Gaussian Shuffle Split operation. Then, the original sparse views along with the pseudo views rendered by the LR GS are super-resolved together to refine the high-resolution texture with 3D robust optimization. In which an inconsistency modeling module (IM) and a blur proposal module are incorporated to mitigate inconsistency and blurriness, aiming to create 3D scenes with high-fidelity texture details.
-            </p>
+Overview of the proposed RestorGS. Left: Appearance Decoupling. Each Gaussian is embedded into the color MLP to learn color mappings and a set of learnable degradation factors is exploited to decouple clear and degraded Gaussians. Right: Depth-Guided Modeling. The rasterized clear image and degraded features are then employed to estimate the physical components, thereby optimizing the Gaussian representation using depth-guided degradation modeling.            </p>
 
           </div>
 
@@ -178,21 +177,21 @@
       <!-- Concurrent Work. -->
       <div class="columns is-centered has-text-centered">
         <div class="column is-full-width">
-          <h2 class="title is-3">Main Results</h2>
+          <h2 class="title is-3">Visual Results and Quantitative Scores</h2>
           <div class="content has-text-justified">
-            <img src="./static/images/1-1-1.jpg">
+            <img src="./static/images/7-1.jpg">
           </div>
-          <h2 class="title is-3">Visual Results</h2>
+          <h2 class="title is-3">Underwater Scene</h2>
           <div class="content has-text-justified">
-            <img src="./static/images/1-1-1.jpg">
+            <img src="./static/images/7-6.jpg">
           </div>
-          <h2 class="title is-3">Visual Results</h2>
+          <h2 class="title is-3">Nighttime Scene</h2>
           <div class="content has-text-justified">
-            <img src="./static/images/1-1-1.jpg">
+            <img src="./static/images/7-7.jpg">
           </div>
-          <h2 class="title is-3">Visual Results</h2>
+          <h2 class="title is-3">Hazy Scene</h2>
           <div class="content has-text-justified">
-            <img src="../static/images/1-1-1.jpg">
+            <img src="../static/images/7-8.jpg">
           </div>
 
 
